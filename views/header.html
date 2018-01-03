@@ -1,0 +1,99 @@
+<div class="main_header" ng-controller="headerController">
+    <div class="header_content header-page animate-in" ng-class="{landingHeader: isActive('/landing')}">
+        <div class="header_logo animate-type-01">
+            <a href="#/!" ng-click="scrollTo('top')"><img class="logo" data-ng-src="assets/images/logo.png"></a>
+        </div>
+         <div class="sidemenu visible-xs visible-sm" data-toggle="modal" data-target="#menu_tab">
+             <a href=""><span class="glyphicon glyphicon-align-justify"></span></a>
+         </div>
+        <div class="header_middle_content animate-type-01">
+            <div class="menu_tab">
+                <ul>
+                    <li class="hidden-xs hidden-sm"><a href="#/!" ng-click="scrollTo('top')">HOME</a></li>
+                    <li class="hidden-xs hidden-sm "><a href="">PRODUCTS<span class="glyphicon glyphicon-menu-down"></span></a>
+                    
+                            </li>
+                    <li class="hidden-xs hidden-sm"><a href="#!team">OUR CHAMPIONS</a></li>
+                    <li data-toggle="modal" data-target="#contact_modal">
+                         <a href=""><span class="contact-btn">REACH US</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_contact_btn animate-type-01" >
+            <div class="phoneno"><a href=""><span class="phoneno-Text"> +9198730 06389 </span></a></div>
+        </div>
+    </div>
+</div>
+<!-- modal for reach us  -->
+<div class="container reach_us_contact">
+        <!-- Modal -->
+        <div class="modal fade contact-us-block" id="contact_modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Write a Message</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Phone">
+                            </div>
+                            <textarea rows="4" class="form-control"  placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn-default disabled">Send a message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal for reach us end-->
+
+<!-- modal for  responsive humburger menu -->
+<div class="container">
+            <!-- Modal -->
+            <div class="modal fade humburger_menu_tab" id="menu_tab" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <a href=""><p class="open-tab">About us</p></a>
+                            <div class="dropdown">
+                                <a href=""><p class="open-tab">What we offer <span class="glyphicon glyphicon-chevron-down"></span></p></a>
+                                <div class="dropdown-content">
+                                    <a href="">Cruz Sail</a>
+                                    <a href="">Cruz Rock</a>
+                                    <a href="">Cruz Hire</a>
+                                    <a href="">Cruz Mentor</a>
+                                    <a href="">Cruz Investor</a>
+                                    <a href="">Cruz FixedBid</a>
+                                    <a href="">Cruz Custom</a>
+                                    <a href="">Cruz Jump</a>
+                                    <a href="">Cruz Seed</a>
+                                </div>
+                            </div>
+
+                            <a class="link2" href="#!team"><p class="open-tab">Our Champions</p></a>
+                            <a class="link2" href=""><p class="open-tab" data-dismiss="modal" data-toggle="modal" data-target="#myModal">Contact us</p></a>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- modal for  responsive humburger menu end-->
+
+
