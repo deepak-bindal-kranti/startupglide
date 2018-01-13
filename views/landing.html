@@ -11,41 +11,110 @@
 	<div class="outer_main_div">
 
 		<!-- Main image content -->
-		<div class="main_image_content">
-			<img class="bg_img wow fadeInDown" src="assets/images/landing.png" data-wow-delay="0.2s" >
-			<div class="inner_bg_text wow fadeInUp" data-wow-duration="2s">
+		<div class="main_image_content hidden-xs">
+			<div class="landing-banner-left" >
+			<h1 ng-click="scrollTo('landingProduct')" class="ribbon">
+   				<strong class="ribbon-content">Build your MVP</strong>
+			</h1>
+
+			<h1 ng-click="scrollTo('landingProduct')"  class="ribbon2" style="width: 60%">
+   				<strong class="ribbon-content2">Hire your CTO</strong>
+			</h1>
+
+			<h1 ng-click="scrollTo('landingProduct')"  class="ribbon3" style="width: 50%">
+   				<strong class="ribbon-content3">Build your Tech Team</strong>
+			</h1>
+
+
+			</div>
+
+			<div class="landing-banner-right" >
+			
+				<img class="bg_img wow fadeInDown" src="assets/images/landing.png" data-wow-delay="0.2s" >
+			</div>
+			
+			<!-- <div class="inner_bg_text wow fadeInUp" data-wow-duration="2s">
 				<h1>MANAGEMENT BACKGROUND</h1>
 				<img class="heading_line_img" src="assets/images/line.png" >
-			</div>
+			</div> -->
 		</div>
+
+
+
+		<div class="main_image_content visible-xs">
+			
+			<div class="landing-banner-right" >
+			
+				<img class="bg_img wow fadeInDown" src="assets/images/landing-mob.png" data-wow-delay="0.2s" >
+			</div>
+			
+			<div class="landing-banner-left" >
+			<h1 ng-click="scrollTo('landingProduct')" class="ribbon">
+   				<strong class="ribbon-content">Build your MVP</strong>
+			</h1>
+
+			<h1 ng-click="scrollTo('landingProduct')"  class="ribbon2" style="width: 70%">
+   				<strong class="ribbon-content2">Hire your CTO</strong>
+			</h1>
+
+			<h1 ng-click="scrollTo('landingProduct')"  class="ribbon3" style="width: 60%">
+   				<strong class="ribbon-content3">Build your Tech Team</strong>
+			</h1>
+
+
+			</div>
+
+		</div>
+
 		<!-- Main image content end -->
 		<!-- middle text content -->
-		<div class="middle_text wow fadeInDown" data-wow-delay="0.2s">
-			<p>We are <span>small</span> yet mighty, we are reckless<br>
+		<div id='landingProduct' class="middle_text wow fadeInDown" data-wow-delay="0.2s">
+			<!-- <p>We are <span>small</span> yet mighty, we are reckless<br>
 				though wiser than you may <span>think</span>, we are go-<br>
 				getters but most of all, we are visionary!
+			</p> -->
+
+			<p>
+				"As a business we understand how hard it is to build products. Building and managing our own line of products we have gathered unique experience to make a startup like yours successful.
+</p>
+<p>
+We provide a spectrum of productised services to help startups grow. Our products provide flexbility, quality and above all delivery.
+</p>
+<p>
+So if you are looking for building a tech team, a MVP or need a CTO or just someone to talk to contact us."
+
 			</p>
+
 		</div>
 		<!-- middle text content end-->
-
+ 
 		<!-- tab div -->
-		<div class="tab_panel">
+		<div  class="tab_panel">
 			<div class="left_tab">
 				<div class="tab_text wow fadeInUp" data-wow-duration="2s">
-					<p class="cruze_text">CRUZE</p>
-					<P class="tab_title">JUMP</P>
+					
+					<a href="#!jump" class="tab_title">JUMP</a>
 				</div>
 				<img class="heading_img  wow fadeInDown" src="assets/images/jumpicon.png" data-wow-delay="0.2s">
+
+				<div class="landing-lagline"> 
+					<a href="#!jump"> Germinate your startup </a>
+				</div>
 			</div>
 			<div class="middle_line">
 				<img class="heading_line_img" src="assets/images/hor-line.png" >
 			</div>
 			<div class="right_tab">
 				<div class="tab_text wow fadeInUp" data-wow-duration="2s">
-					<p class="cruze_text">CRUZE</p>
-					<P class="tab_title">SEED</P>
+					
+					<a href="#!seed" class="tab_title">SEED</a>
 				</div>
 				<img class="heading_img wow fadeInDown" src="assets/images/seedicon.png" data-wow-delay="0.2s">
+
+				<div class="landing-lagline"> 
+					<a href="#!seed"> MVP out in less than a quarter </a>
+				</div>
+				
 			</div>
 		</div>
 		<!-- tab div end -->

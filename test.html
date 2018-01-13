@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Startupglide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/commonScript.js"></script>
+    <!-- <script src="js/module.js"></script>
+    <script src="js/controller.js"></script> -->
     <script src="js/wow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 </head>
-<body ng-app="">
-<!-- Header div(code is writen in the views/header.html) -->
-<div ng-include="'views/header.html'"></div>
-<!-- header div end -->
+<body>
+
+<!-- 
+header start
+
+-->    
+<div class="main_header">
+    <div class="header_content header-page animate-in" ng-class="{landingHeader: isActive('/landing')}">
+        <div class="header_logo animate-type-01">
+            <a href=""><img class="logo" src="assets/images/logo.png"></a>
+        </div>
+         <div class="sidemenu visible-xs visible-sm" data-toggle="modal" data-target="#menu_tab">
+             <a href=""><span class="glyphicon glyphicon-align-justify"></span></a>
+         </div>
+        <div class="header_middle_content animate-type-01">
+            <div class="menu_tab">
+                <ul>
+                    <li class="hidden-xs hidden-sm"><a href="" ng-click="scrollTo('top')">HOME</a></li>
+                    <li class="hidden-xs hidden-sm "><a href="">PRODUCTS<span class="glyphicon glyphicon-menu-down"></span></a>
+                    
+                            </li>
+                    <li class="hidden-xs hidden-sm"><a href="">OUR CHAMPIONS</a></li>
+                    <li data-toggle="modal" data-target="#contact_modal">
+                         <a ><span class="contact-btn">REACH US</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_contact_btn animate-type-01" >
+            <div class="phoneno"><a ><span class="phoneno-Text"> +9198730 06389 </span></a></div>
+        </div>
+    </div>
+</div>
+<!-- modal for reach us  -->
+<div class="container reach_us_contact">
+        <!-- Modal -->
+        <div class="modal fade contact-us-block" id="contact_modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Write a Message</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Phone">
+                            </div>
+                            <textarea rows="4" class="form-control"  placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn-default disabled">Send a message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal for reach us end-->
+
+<!-- modal for  responsive humburger menu -->
+<div class="container">
+            <!-- Modal -->
+            <div class="modal fade humburger_menu_tab" id="menu_tab" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                           
+                            <div class="dropdown">
+                                <a href=""><p class="open-tab">Products <span class="glyphicon glyphicon-chevron-down"></span></p></a>
+                                <div class="dropdown-content">
+                                    <a data-dismiss="modal" href="#!sail">Glide Sail</a>
+                                    <a href="#!rock">Glide Rock</a>
+                                    <a href="#!hire">Glide Hire</a>
+                                    <a href="#!mentor">Glide Mentor</a>
+                                    <a href="#!investor">Glide Investor</a>
+                                    <a href="">Glide FixedBid</a>
+                                    <a href="">Glide Custom</a>
+                                    <a href="#!jump">Glide Jump</a>
+                                    <a href="#!seed">Glide Seed</a>
+                                </div>
+                            </div>
+
+                            <a class="link2" href="#!team"><p class="open-tab">Our Champions</p></a>
+                            <a class="link2" href=""><p class="open-tab" data-dismiss="modal" data-toggle="modal" data-target="#myModal">Contact us</p></a>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- modal for  responsive humburger menu end-->
+
+
+
+
+<!-- 
+header end
+-->
+
+
+
+
+
+
+
+<!-- 
+homepage start
+-->    
+
 
 <!-- middle image content -->
 <div class="middle_image_content sticky-header-margin">
@@ -17,9 +148,9 @@
 <!-- image bottom tab -->
 <div class="bg-tab"></div>
 <div class="image_bottom_content">
-    <p class="heading wow fadeInUp" data-wow-duration="2s">
+    <h1 class="heading wow fadeInUp" data-wow-duration="2s">
         GLIDE TO SUCCESS
-    </p>
+    </h1>
 </div>
 <!-- image bottom tab end -->
 
@@ -39,10 +170,10 @@
                 </div>
 
                 <div class="listdiv">
-                    <p>Is Hiring a CTO turning keeping you up at night?</p>
-                    <p>Unable to goto market with a MVP</p>
-                    <p>Burnt by unreliable tech partners</p>
-                    <p>Technology choices scaring you</p>
+                    <p>Hiring a CTO turning keeping you up at night?</p>
+                    <p>Unable to go to market with a MVP.</p>
+                    <p>Burnt by unreliable tech partners.</p>
+                    <p>Technology choices scaring you.</p>
                 </div>
             </div>
 
@@ -65,7 +196,7 @@
                         <p class="tagline"> Jump start now </p>
                     </div>
                     <div class="float_right width-49">
-                       <p class="tagline"> MVP Out in less than a Quarter </p>
+                       <p class="tagline"> MVP out in less than a quarter </p>
                     </div>
                 </div>
 
@@ -91,9 +222,9 @@
                 </div>
 
                 <div class="listdiv">
-                    <p> Looking for a Reliable cost effective technology partner.</p>
-                    <p> Headcount and team planning taking toll with changing business realities</p>
-                    <p>Hiring hassels keeping you away from business</p>
+                    <p> Looking for a reliable cost effective technology partner.</p>
+                    <p> Headcount and team planning taking toll with changing business realities.</p>
+                    <p>Hiring hassels keeping you away from business.</p>
                 </div>
 
             </div>
@@ -116,7 +247,7 @@
                         <p class="tagline"> Tonic to meet deadlines at breakneck speeds </p>
                     </div>
                     <div class="float_right width-49">
-                       <p class="tagline"> Longterm Staff augumentation and product development </p>
+                       <p class="tagline"> Staff augmentation and product development </p>
                     </div>
                 </div>
 
@@ -149,9 +280,9 @@
                 </div>
 
                 <div class="listdiv">
-                    <p>Business impacted due to deadline miss</p>
+                    <p>Business impacted due to deadline miss.</p>
                     <p>More bugs than features.</p>
-                    <p>Excuses, Excuses, Excuses...But no work.</p>
+                    <p>Excuses, Excuses, Excuses...but no work.</p>
                 </div>
             </div>
           
@@ -201,9 +332,9 @@
                     <img class="founders_img" src="assets/images/image5.png">
                 </div>
                 <div class="listdiv">
-                    <p>New Joinee no show</p>
-                    <p>Talent pool dry</p>
-                    <p>Neverending notice periods</p>
+                    <p>New joinee no show.</p>
+                    <p>Talent pool dry.</p>
+                    <p>Neverending notice periods.</p>
                 </div>
             </div>
             
@@ -225,7 +356,7 @@
 
                 <div class="tagline-block">
                     <div  class="float_left width-49"> 
-                        <p class="tagline"> MVP Out in less than a Quarter </p>
+                        <p class="tagline"> MVP out in less than a quarter </p>
                     </div>
                     <div class="float_right width-49">
                        <p class="tagline"> Tonic to meet deadlines at breakneck speeds </p>
@@ -258,9 +389,9 @@
                 </div>
 
                 <div class="listdiv">
-                    <p>Looking for Consultants/Mentors in a specific Domains/verticals.</p>
+                    <p>Looking for consultants/mentors in a specific domains/verticals.</p>
                     <p>Seeking Investments.</p>
-                    <p>Advice on attacking market</p>
+                    <p>Advice on attacking market.</p>
 
                 </div>
             </div>
@@ -416,9 +547,7 @@
 
 
 <!-- footer div(code is writen in the views/footer.html) -->
-<div ng-include="'views/footer.html'"></div>
-<!-- footer div end -->
-</div>
+
 
 
 <Script>
@@ -450,5 +579,73 @@
     }
 
 </Script>
+
+
+
+
+
+
+<!-- 
+homepage end
+-->
+
+
+
+
+
+
+
+
+
+<!-- 
+footer start
+-->    
+<div>
+    <div class="footer" ng-class="{teamFooter: isActive('/team') , landingFooter: isActive('/landing')}">
+        <div class="footer_left_content">
+            <img class="footer_logo" src="assets/images/logo.png"/>
+            <div class="footerlist">
+                <ul class="ul">
+                    <li>TERM & CONDITIONS</li><p>|</p>
+                    <li>PRIVACY POLICY</li><p>|</p>
+                    <li>COPYRIGHT</li><p>|</p>
+                    <li>DISCLAIMER</li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="footer_right_content">
+            <p>
+                ADDRESS: D247/32, SECTOR 63, NOIDA,</br>
+                UTTAR PRADESH-201307 (INDIA)<br>
+                <span class="email_content">
+                </br></br>
+                    <img class="social-image" src="assets/images/lasticon1.png">
+                    <img class="social-image" style="width: 9px" src="assets/images/lasticon2.png">
+                    <img class="social-image"  src="assets/images/lasticon3.png">
+                    <img class="social-image"  src="assets/images/lasticon4.png">
+                </span>
+
+                
+            </p>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 
+footer end
+-->
+
+
+
+
+
+
+
 </body>
 </html>

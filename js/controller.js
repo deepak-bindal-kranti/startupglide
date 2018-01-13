@@ -15,7 +15,10 @@ app.controller('footerController', function($scope, $location) {
 /* For showing pages from top for tab any link */
 app.controller('topscrollController', function($scope, $location, $anchorScroll){
 		$scope.scrollTo = function (scrollLocation){
+
+            var old = $location.hash();
 			$location.hash(scrollLocation);
 			$anchorScroll();
+            $location.hash(old);
 		}
 });

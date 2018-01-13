@@ -4,6 +4,8 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
 .float_right{ float: right; }
 
+.width-49{width: 49%;}
+
 ul { list-style-type: none;padding: 0px;}
 
 a{ color: white!important; }
@@ -28,6 +30,8 @@ a:hover{ text-decoration: none!important; }
 
 .logo { width: 70%;margin-top: 55px; }
 
+.kranti-logo{width: 150px; margin-left: 10px; vertical-align: baseline;}
+
 .header_middle_content{ width: 60%;height: auto;float: left; }
 
 .menu_tab{ font-size: 1.2vw;width: 100%;margin-top: 57px; }
@@ -38,7 +42,7 @@ a:hover{ text-decoration: none!important; }
 
 .menu_tab > ul > li { float: left;color: white;padding: 20px;font-weight: 500; }
 
-.contact-btn{ border-radius: 10px;background: #bc2624;color: white;padding: 10px; }
+.contact-btn{ border-radius: 10px;background: #bc2624;color: white;padding: 10px 50px; }
 
 .contact-btn:hover{ background: #f12a28; }
 
@@ -46,7 +50,7 @@ a:hover{ text-decoration: none!important; }
 
 .header_contact_btn > .phoneno { margin-top: 78px;height: 37px;width: 100%; }
 
-.phoneno-Text{ background: #ffbb01;color: #352b3b;font-weight: bold;padding: 9px;border-radius: 10px;font-size: 16px; }
+.phoneno-Text{ background: #ffbb01;color: #352b3b;font-weight: bold;padding: 10px 40px;border-radius: 10px;font-size: 16px; }
 
 .contact-us-block{ width: 50%;margin-left: auto;margin-right: auto;margin-top: 5vh;min-width: 300px; }
 
@@ -62,7 +66,7 @@ a:hover{ text-decoration: none!important; }
 
 .image_bottom_content{ width: 100%; height: 80px; background-color: #352b3b;float: left; }
 
-.image_bottom_content > .heading { color: #FFFFFF;text-align: center;font-size: 30px;font-weight: bold;padding: 20px;}
+.image_bottom_content > .heading { color: #FFFFFF;text-align: center;font-size: 30px;font-weight: bold;padding: 20px; margin-top: 0px;}
 
 .founders_right_content{ width: 100%;height: auto;float: left;background-color: #57b5c1; }
 
@@ -74,11 +78,17 @@ a:hover{ text-decoration: none!important; }
 
 .founders_inner_margin > p{ color: white;font-size: 25px;font-weight: 600; }
 
-.listdiv{ padding: 1px;width: 100%; margin-top: 12px; }
+.listdiv{ padding: 1px;width: 100%; margin-top: 12px; font-weight: 500; }
+
+.tagline{font-size: 14px; font-weight: 500; color: #352b3b; padding: 0px 10px}
+
+.tagline-block{clear:both;}
+
+.divider-span{padding: 20px 0; position: relative; top:25px; background: gray; font-size: 4px;}
 
 .quick-solution{ text-align: center;line-height: 2;font-size: 16px;color: white;background: #352b3b;font-weight: bold; }
 
-.founders_linking {  background-color: #fdb913;width: 100%;color: white;height: 55px;float: left;text-align: center; }
+.founders_linking {  background-color: #fdb913;width: 100%;color: white;height: auto;float: left;text-align: center; }
 
 .founders_linking > ul, .founders_linking_left_div > ul { text-decoration: none;list-style: none;font-size: 20px;padding:0px; }
 
@@ -134,7 +144,7 @@ a:hover{ text-decoration: none!important; }
 
 .quicksolution_left_div{ margin-top: 30px;text-align: center;line-height: 2;font-size: 16px;color: white;background: #febb01;font-weight: bold;}
 
-.founders_linking_left_div { background-color: #00aeef;width: 100%;color: white;height: 60px;text-align: center; }
+.founders_linking_left_div { background-color: #00aeef;width: 100%;color: white;height: auto; overflow: auto; text-align: center; }
 
 .boosticon{ width: 23px; margin-bottom: 5px; }
 
@@ -245,7 +255,7 @@ a:hover{ text-decoration: none!important; }
 
 .footer_right_content{ width: 50%;float: left;color: white; margin-top:20px }
 
-.footer_right_content > p{ float: right;margin-right:45px; }
+.footer_right_content > p{ float: right;margin-right:45px;     text-align: right;}
 
 .social-image{ margin-left:12px;height: auto; width: 20px; }
 
@@ -262,7 +272,7 @@ a:hover{ text-decoration: none!important; }
 
 .img_content img{ width: 44%;position: absolute;z-index: 1;margin-top: 10px;left: 162px; }
 
-.main_text_detail{ color: whitesmoke; width: 100%;float: left;margin-top: 25px;padding: 69px; }
+.main_text_detail{ color: whitesmoke; width: 100%;float: left;margin-top: 0px;padding: 69px; }
 
 .main_text_detail .heading{ font-weight: bolder;font-size: 45px; text-transform: uppercase; }
 
@@ -296,7 +306,7 @@ a:hover{ text-decoration: none!important; }
 
 .middle_content_section{ width: 100%; height: auto;clear: both;}
 
-.text_section { width: 55%; text-align: center;height: 496px;}
+.text_section { width: 55%; text-align: center;height: auto;}
 
 .image_section{ width: 45%; position: relative;}
 
@@ -344,13 +354,13 @@ a:hover{ text-decoration: none!important; }
 
 .product_list{ height: auto;width: 100%; margin-top: 45px;}
 
-.product_list .inner_product_list{ font-size: 1.9vw;font-weight: bold;display: inline-block; color: #fff;width: 19%; }
+.product_list .inner_product_list{ font-size: 1.9vw;font-weight: bold;display: inline-block; color: #fff;width: 30%; }
 
 .inner_product_list img{ width: 25%; margin-top: 30px;}
 
 .opsImage{ width: 60%!important; margin-top: 23px!important; left:0px!important; }
 
-.sailImage{ width: 59%!important;  left:0px!important; margin-top: 110px!important; }
+.sailImage{ width: 100%!important; position: relative !important;  left:0px!important; margin-top: 110px!important; }
 
 .investorImage{ width: 50%!important;left:75px!important; }
 
@@ -416,7 +426,7 @@ a:hover{ text-decoration: none!important; }
 .bg_white{ background-color: #fff; }
 
 /* css for landing.html */
-.main_image_content{ float: left; height: 960px;width: 100%;background: #171718; text-align: center;}
+.main_image_content{ float: left; height: auto;width: 100%;background: #171718; text-align: center;}
 
 .main_image_content .bg_img{ width: 100%; }
 
@@ -426,44 +436,422 @@ a:hover{ text-decoration: none!important; }
 
 .middle_text{ float: left; width: 100%; padding: 20px; height: auto;background-color: white;text-align: center;color: #6a5935; }
 
-.middle_text p{ font-size: 30px; }
+.middle_text p{ font-size: 21px; }
 
 .middle_text span{ color: black; }
 
 .tab_panel{ width: 100%; float: left; background: #171718;padding: 40px; }
 
-.left_tab{ float: left;width: 45%;text-align: right;margin-top: 10px; }
+.left_tab{ float: left;width: 45%;text-align: right; margin-top: 0px; }
 
-.middle_line{ float: left;width: 10%;margin-top: 10px; }
+.middle_line{ float: left;width: 10%;margin-top: 0px; }
 
 .middle_line .heading_line_img{ width: 100%; }
 
-.right_tab{ float: left; width: 45%;margin-top: 10px; }
+.right_tab{ float: left; width: 45%;margin-top: 0px; }
 
 .cruze_text{ color: #fff; font-weight: bold; font-size: 20px; margin-bottom: 0px;text-align: left;}
 
 .left_tab .cruze_text{ margin-left: 15px; }
 
-.tab_title{ color: #bb994e; font-weight: bold;font-size: 50px;margin-top: -17px; }
+.tab_title{ color: #bb994e; font-weight: bold;font-size: 50px;margin-top: -17px; cursor: pointer }
 
 .tab_text{ display: inline-block;margin-top: 40px; }
 
 .tab_panel .heading_img{ width: 115px; margin-top: -65px;}
+
+.landing-lagline{font-size: 25px; clear: both;}
+
+.landing-lagline p{cursor: pointer;}
+
+.landing-banner-left{float: left; width: 35%; position: relative; z-index: 1; padding-top: 60px; left: 100px;}
+
+.landing-banner-right{float: right; width: 65%;}
+
+
+/*banner*/
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 70%;
+ cursor: pointer;
+    
+ position: relative;
+ background: #ba89b6;
+ color: #fff !important;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ top : 30px;
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #986794;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #804f7c transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+
+
+
+
+
+
+/*banner*/
+
+.ribbon2 {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 70%;
+ cursor: pointer;
+    
+ position: relative;
+ background: #ffb819;
+ color: #fff !important;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ top : 30px;
+}
+.ribbon2:before, .ribbon2:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #d4960b;
+ z-index: -1;
+}
+.ribbon2:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon2:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon2 .ribbon-content2:before, .ribbon2 .ribbon-content2:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #946e18 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon2 .ribbon-content2:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon2 .ribbon-content2:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+/*banner*/
+
+.ribbon3 {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 70%;
+ cursor: pointer;
+    
+ position: relative;
+ background: #bb2c15;
+ color: #fff !important;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+ top : 30px;
+}
+.ribbon3:before, .ribbon3:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #9c2411;
+ z-index: -1;
+}
+.ribbon3:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon3:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon3 .ribbon-content3:before, .ribbon3 .ribbon-content3:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #691104 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon3 .ribbon-content3:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon3 .ribbon-content3:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+
+
+
+
+
+
+
+.inner-tagline{font-size: 16px; color: #ffbb01; font-weight: 500;}
+.inner_text_detail_jump{width: 45%; margin: 0px auto}
+.inner_text_detail_jump td{text-align: left; padding: 5px;}
+
+
+.trafficlight{
+  background: #222;
+  background-image: linear-gradient(transparent 2%, #111 2%, transparent 3%, #111 30%);
+  width: 170px;
+  height: 400px;
+  border-radius: 20px;
+  position: relative;
+  border: solid 5px #333;
+}
+
+.trafficlight:before{
+ /* background: #222;
+  background-image: radial-gradient(#444, #000);*/
+  content: "";
+  width: 170px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: -20px;
+  margin-left: 0px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.trafficlight:after{
+  /*background: #222;
+  background-image: linear-gradient(-90deg, #222 0%, #444 30%, #000);*/
+  content: "";
+  width: 50px;
+  height: 500px;
+  margin-left: 60px;
+  position: absolute;
+  top: 150px;
+  z-index: -1;
+}
+
+.protector{
+  background: transparent;
+  width: 180px;
+  height: 0;
+  position: absolute;
+  top: 20px;
+  left: -35px;
+  border-right: solid 30px transparent;
+  border-left: solid 30px transparent;
+  border-top: solid 90px #111;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.protector:nth-child(2){
+  top: 140px;
+}
+
+.protector:nth-child(3){
+  top: 260px;
+}
+
+.red{
+  background: red;
+  background-image: radial-gradient(brown, transparent);
+  background-size: 5px 5px; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+ /* animation: 13s red infinite;*/
+  border: dotted 2px red;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px red;
+    color: white;
+    font-size: 36px;
+    padding: 24px 10px;
+    font-weight: bold;
+}
+
+.yellow{
+  background: yellow;
+  background-image: radial-gradient(orange, transparent);
+  background-size: 5px 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: dotted 2px yellow;
+  position: absolute;
+  top: 145px;
+  left: 35px;
+  /*animation: 13s yellow infinite;*/
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px yellow;
+    color: white;
+    font-size: 36px;
+    padding: 24px 10px;
+    font-weight: bold;
+}
+
+.green{
+  background: green;
+  background-image: radial-gradient(lime, transparent);
+  background-size: 5px 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: dotted 2px lime;
+  position: absolute;
+  top: 270px;
+  left: 35px;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px lime;
+  /*animation: 13s green infinite;*/
+  color: white;
+    font-size: 36px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+/*@keyframes red{
+  0%{opacity: 1}
+  20%{opacity: 1}
+  40%{opacity: 1}
+  60%{opacity: .1}
+  80%{opacity: .1}
+  100%{opacity: .1}
+}
+
+@keyframes yellow{
+  0%{opacity: .1}
+  20%{opacity: .1}
+  40%{opacity: 1}
+  50%{opacity: .1}
+  60%{opacity: .1}
+  80%{opacity: .1}
+  100%{opacity: .1}
+}
+
+@keyframes green{
+  0%{opacity: .1}
+  20%{opacity: .1}
+  40%{opacity: .1}
+  60%{opacity: 1}
+  80%{opacity: 1}
+  83%{opacity: .1}
+  86%{opacity: 1}
+  89%{opacity: .1}
+  93%{opacity: 1}
+  96%{opacity: .1}
+  100%{opacity: 1}
+}
+*/
+
+
+.works-left{float: left; width: 30%; margin-bottom: 20px;}
+.works-right{float: right; width: 70%}
+.traffic-text{width: 100%}
+.traffic-text td{height: 130px; font-style: italic; vertical-align: middle; color: white; font-size: 19px; text-align: left; padding-left: 56px;}
 
 
 /* media query for mobile view  */
 
 @media (min-width: 320px) and (max-width: 767px) {
 
+	.sailImage{ margin-top: 30px!important; }
+
+
+	.img_content img {
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    left: 10%;
+}
+
+	.traffic-text td{font-size: 13px;     padding-left: 9px; padding-right: 5px;}
+	.trafficlight{width: 120px}
+	.red, .green, .yellow {left : 8px;}
+	.protector{width:117px;}
+	.works-left{float: left; width: 44%}
+.works-right{float: right; width: 56%}
+
+	.inner_text_detail_jump{width: 96%; margin: 0px auto}
+
+	.landing-banner-left {  width: 100%; padding-top: 10px; left: 0px; }
+
+	.ribbon { font-size: 14px !important; top: 0px; width: 80%; }
+
+	.ribbon2 { font-size: 14px !important; top: 0px; }
+
+	.ribbon3 { font-size: 14px !important; top: 0px; }
+
+	.header_content { height: 110px; }
+
+	.outer_main_div { margin-top: 110px;}
+
     .dotposition{ width: 100%; position: initial;background: #f3eded; height: 25px; padding-top: 5px; }
 
-    .logo { width: 170px;float: none; margin-top: 45px;margin-left: 30px; }
+    .logo { width: 170px;float: none; margin-top: 9px;margin-left: 20px; }
 
-    .sidemenu{ float: right;width: 30%;font-size: 40px;color: white;position: relative;top: 50px; text-align: center;}
+    .sidemenu{ float: right;width: 30%;font-size: 40px;color: white;position: relative;top: 9px; text-align: right; right:20px;}
 
     .sidemenu a{ color: #fff; }
 
-    .header_logo { width: 70%; }
+    .header_logo { width: 70%; text-align: left; }
 
     .header_middle_content{ float:right;width: 50%;}
 
@@ -471,11 +859,11 @@ a:hover{ text-decoration: none!important; }
 
     .menu_tab > ul { padding-left: 0px; }
 
-    .menu_tab > ul > li { padding: 18px 30px; text-align: center; float: inherit;}
+    .menu_tab > ul > li { padding: 18px 20px; text-align: right; float: inherit;}
 
     .header_contact_btn { width: 50%;text-align: center; }
 
-    .header_contact_btn > .phoneno { margin-top: 15px; } 
+    .header_contact_btn > .phoneno { margin-top: 15px; text-align: left; margin-left: 20px; } 
 
     .contact-btn{ border-radius: 10px; background: #bc2624; color: white; padding: 6px 14px; font-size: 13px; font-weight: bold;}
 
@@ -505,7 +893,7 @@ a:hover{ text-decoration: none!important; }
 
     .listdiv{ font-size: 13px;}
 
-    .founders_linking { width: 100%;height: 55px;float: left;margin-top: 0px;}
+    .founders_linking { width: 100%; float: left;margin-top: 0px;}
 
     .founders_linking > ul {font-size: 20px;font-weight: 600;}
 
@@ -513,7 +901,7 @@ a:hover{ text-decoration: none!important; }
 
     .founders_inner_div_detail  {width: 100%; margin:0px; float:none;  margin:0;}
 
-    .founders_inner_div_detail > .inner_margin {text-align: center; margin: 0 15px 15px 15px;}
+    .founders_inner_div_detail > .inner_margin {text-align: center; margin: 0 15px 0px 15px;}
 
     .founders_inner_margin > p {font-size: 18px;}
 
@@ -564,7 +952,7 @@ a:hover{ text-decoration: none!important; }
 
     .footer_right_content { width: 100%;  float: left;margin-top: 0px;text-align: center;}
 
-    .footer_right_content > p {float: none; margin-right: 0px; font-size: 13px;}
+    .footer_right_content > p {float: none; margin-right: 0px; font-size: 13px; text-align: center;}
 
     /* css for seed.html page */
 
@@ -588,11 +976,11 @@ a:hover{ text-decoration: none!important; }
 
     .number_head{ font-size: 17vw;top: -3px; }
 
-    .working_detail_section{ margin-top: 30px; }
+    .working_detail_section{ margin-top: 30px; width: 100%; }
 
     .middle_section{ clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 0vw) ); height: auto; display: flex;}
 
-    .text_section{ width: 100%;height: 430px; }
+    .text_section{ width: 100%; height: auto; margin-bottom: 30px; }
 
     .inner_text_detail{ width: 85%; }
 
@@ -685,12 +1073,15 @@ a:hover{ text-decoration: none!important; }
 
     .left_tab .cruze_text{ margin-left: 7px; }
 
-    .right_tab , .left_tab{ width: 44%; }
+    .right_tab , .left_tab{ width: 44%; margin-top: 15px }
 
-    .middle_line{ width: 12%;margin-top: 0px; }
+    .middle_line{ width: 12%;margin-top: 5px; }
 
     .middle_line .heading_line_img{ width: 40px; }
 
+    .landing-lagline{font-size: 12px; }
+
+    .landing-banner-right{float: right; width: 100%;}
 
 }
 
@@ -700,13 +1091,26 @@ a:hover{ text-decoration: none!important; }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.img_content img {
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    left: 10%;
+}
+
+	.landing-lagline{font-size: 20px; }
+
+	.left_tab, .right_tab{margin-top: 15px;}
+
     .dotposition{ width: 100%; position: initial;background: #f3eded; height: 25px; padding-top: 5px; }
 
-    .logo { width: 170px;float: none; margin-top: 45px;margin-left: 30px; }
+    .logo { width: 170px;float: none; margin-top: 45px;margin-left: 50px; }
 
-    .sidemenu{ float: right;width: 30%;font-size: 40px;color: white;position: relative;top: 50px; text-align: center;}
+    .sidemenu{ float: right;width: 30%;font-size: 40px;color: white;position: relative;top: 50px; text-align: right; right:50px;}
 
-    .header_logo { width: 70%; }
+    .header_logo { width: 70%; text-align: left; }
 
     .header_middle_content{ float:right;width: 50%;}
 
@@ -714,11 +1118,11 @@ a:hover{ text-decoration: none!important; }
 
     .menu_tab > ul { padding-left: 0px; }
 
-    .menu_tab > ul > li { padding: 18px 30px; text-align: center; float: inherit;}
+    .menu_tab > ul > li { padding: 18px 50px; text-align: right; float: inherit;}
 
     .header_contact_btn { width: 50%;text-align: center; }
 
-    .header_contact_btn > .phoneno { margin-top: 15px; } 
+    .header_contact_btn > .phoneno { margin-top: 15px; text-align: left; margin-left: 50px; } 
 
     .contact-btn{ border-radius: 10px; background: #bc2624; color: white; padding: 6px 14px; font-weight: bold;font-size: 16px;}
 
@@ -740,9 +1144,9 @@ a:hover{ text-decoration: none!important; }
 
     .founders_inner_margin {margin: 20px;text-align: center;}
 
-    .founders_linking { width: 100%;height: 55px;float: left;margin-top: 0px;}
+    .founders_linking { width: 100%; float: left; margin-top: 0px;}
 
-    .founders_linking > ul {font-size: 20px;font-weight: 600;}
+    .founders_linking > ul {font-size: 20px;font-weight: 600; margin-bottom: 0;}
 
     .founders_inner_detail  {width: 100%;float: left;padding: 0px}
 
@@ -908,7 +1312,7 @@ a:hover{ text-decoration: none!important; }
 
     .middle_text{ padding:10px; }
 
-    .middle_text p{ font-size: 28px; }
+    .middle_text p{ font-size: 18px; }
 
     .tab_panel{ padding: 20px; }
 
@@ -924,7 +1328,7 @@ a:hover{ text-decoration: none!important; }
 
     .middle_line{ margin-top: 0px; }
 
-    .middle_line .heading_line_img{ width: 65px; }
+    .middle_line .heading_line_img{ width: 65px; margin-top: 0px; }
 }
 
 

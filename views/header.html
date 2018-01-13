@@ -72,15 +72,15 @@
                             <div class="dropdown">
                                 <a href=""><p class="open-tab">What we offer <span class="glyphicon glyphicon-chevron-down"></span></p></a>
                                 <div class="dropdown-content">
-                                    <a href="">Cruz Sail</a>
-                                    <a href="">Cruz Rock</a>
-                                    <a href="">Cruz Hire</a>
-                                    <a href="">Cruz Mentor</a>
-                                    <a href="">Cruz Investor</a>
-                                    <a href="">Cruz FixedBid</a>
-                                    <a href="">Cruz Custom</a>
-                                    <a href="">Cruz Jump</a>
-                                    <a href="">Cruz Seed</a>
+                                    <a data-dismiss="modal" href="#!sail">Glide Sail</a>
+                                    <a href="#!rock">Glide Rock</a>
+                                    <a href="#!hire">Glide Hire</a>
+                                    <a href="#!mentor">Glide Mentor</a>
+                                    <a href="#!investor">Glide Investor</a>
+                                    <a href="">Glide FixedBid</a>
+                                    <a href="">Glide Custom</a>
+                                    <a href="#!jump">Glide Jump</a>
+                                    <a href="#!seed">Glide Seed</a>
                                 </div>
                             </div>
 
@@ -97,3 +97,9 @@
 <!-- modal for  responsive humburger menu end-->
 
 
+<script type="text/javascript">
+    $('.dropdown-content > a').click(function(){
+  $('#menu_tab').modal('hide')
+})
+   
+</script>
