@@ -4,9 +4,10 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
 .section-h1{color: white; font-size: 25px; font-weight: 600; line-height: 133%; margin: 0px;}
 .section-h2-link{font-size: 20px; margin-bottom: 0px; margin-top: 10px;}
+.section-h2-link a {cursor: pointer}
 .section-h3-right{color: black; font-size: 14px; font-weight: 500;}
 .section-h3-left{color: white; font-size: 14px; font-weight: 500;}
-.h2-tagline{font-size: 14px; font-weight: 500; color: #352b3b; padding: 0px 10px; margin-top:0px}
+.h2-tagline{font-size: 14px; font-weight: 500; color: #352b3b; padding: 0px 10px; margin-top:0px; line-height: 1.4;}
 .h2-footer{float: right; margin-right: 45px; text-align: right; font-size: 14px; line-height: 1.4 }
 
 
@@ -822,6 +823,22 @@ a:hover{ text-decoration: none!important; }
 
 @media (min-width: 320px) and (max-width: 767px) {
 
+
+.section-h1{padding: 15px; font-size: 18px}
+.section-h3-right{font-size: 13px; margin-top: 10px;}
+.section-h3-left{font-size: 13px; margin-top: 10px;}
+.section-h2-link{}
+.h2-tagline{font-size: 12px;}
+.h2-footer{ margin-right: 0px;text-align: center;font-size: 12px; width: 100%;}
+
+
+
+    .sticky-header-margin {
+        margin-top: 110px;
+    }
+
+
+
 	.sailImage{ margin-top: 30px!important; }
 
 
@@ -898,9 +915,9 @@ a:hover{ text-decoration: none!important; }
 
     .founders_main_detail {width: 100%; margin:0px;  margin-top:0px; margin-left:0px;}
 
-    .founders_inner_margin {margin: 15px;text-align: center;}
+    .founders_inner_margin {margin: 0px;text-align: center;}
 
-    .mobile-image-block{ width: 100vw !important;text-align: center !important;margin: 10px -15px 20px -15px !important; }
+    .mobile-image-block{ width: 100% !important;text-align: center !important; margin: 0px 0px 20px 0px !important; }
 
     .listdiv{ font-size: 13px;}
 
@@ -912,7 +929,7 @@ a:hover{ text-decoration: none!important; }
 
     .founders_inner_div_detail  {width: 100%; margin:0px; float:none;  margin:0;}
 
-    .founders_inner_div_detail > .inner_margin {text-align: center; margin: 0 15px 0px 15px;}
+    .founders_inner_div_detail > .inner_margin {text-align: center; margin: 0px;     padding-top: 0px;}
 
     .founders_inner_margin > p {font-size: 18px;}
 
@@ -940,7 +957,7 @@ a:hover{ text-decoration: none!important; }
 
     .textbox2{ margin-top: 20px; }
 
-    .textheading { font-size: 6vw;font-weight: bold;}
+    .textheading { font-size: 6vw;font-weight: bold; margin-top: 10px;}
 
     .for-textpara { float: none; }
 
@@ -1102,6 +1119,13 @@ a:hover{ text-decoration: none!important; }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .section-h1{padding: 15px; font-size: 20px}
+.section-h3-right{font-size: 13px; margin-top: 10px;}
+.section-h3-left{font-size: 13px; margin-top: 10px;}
+.section-h2-link{}
+.h2-tagline{font-size: 14px;}
+.h2-footer{ margin-right: 0px;text-align: center;font-size: 12px; width: 100%;}
+
 	.img_content img {
     width: 80%;
     max-width: 500px;
@@ -1147,13 +1171,13 @@ a:hover{ text-decoration: none!important; }
 
     .image_bottom_content > .heading { font-size: 18px;padding: 30px;}
 
-    .founders_image_content{width: 100%;text-align: center;}
+    .founders_image_content{width: 100%;text-align: center; margin-bottom: 15px;}
 
     .founders_detail {width:100%;  height: auto; background-color: #57b5c1;  float: left; padding:0px; text-align: center;}
 
     .founders_main_detail {width: 100%; margin:0px;  margin-top:0px; margin-left:0px;}
 
-    .founders_inner_margin {margin: 20px;text-align: center;}
+    .founders_inner_margin {margin: 0px;text-align: center;}
 
     .founders_linking { width: 100%; float: left; margin-top: 0px;}
 
@@ -1163,7 +1187,7 @@ a:hover{ text-decoration: none!important; }
 
     .founders_inner_div_detail {width: 100%; margin:0px; float:none;  margin:0;}
 
-    .founders_inner_div_detail > .inner_margin  {text-align: center;}
+    .founders_inner_div_detail > .inner_margin  {text-align: center; margin: 0px; padding-top: 0px; }
 
     .founders_inner_margin > p {font-size: 25px;}
 
@@ -1173,7 +1197,7 @@ a:hover{ text-decoration: none!important; }
 
     .founders_inner_div_detail > .inner_margin > p{font-size: 25px;}
 
-    .founders_img_content {width: 100%;float: left;text-align: center;}
+    .founders_img_content {width: 100%;float: left;text-align: center; margin-bottom: 15px;}
 
     .founders_img {width: 48%; margin-left: 0px;float: none;}
 
@@ -1185,7 +1209,7 @@ a:hover{ text-decoration: none!important; }
 
     .textbox2{ margin-top: 20px; }
 
-    .textheading { font-size: 6vw;font-weight: bold;}
+    .textheading { font-size: 6vw;font-weight: bold; margin-top: 10px; }
 
     .for-textpara { float: none; }
 
@@ -1343,4 +1367,15 @@ a:hover{ text-decoration: none!important; }
 }
 
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_right_content .email_content {
+        top: 40px;
+    }
+
+    .phoneno-Text {
+    font-size: 13px;
+}
+
+}
 
