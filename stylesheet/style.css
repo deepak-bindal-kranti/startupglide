@@ -1,5 +1,16 @@
 body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
+/*h1, h2, h3, h4, h5, h6, h7, h8 {margin: 0px}*/
+
+.section-h1{color: white; font-size: 25px; font-weight: 600; line-height: 133%; margin: 0px;}
+.section-h2-link{font-size: 20px; margin-bottom: 0px; margin-top: 10px;}
+.section-h3-right{color: black; font-size: 14px; font-weight: 500;}
+.section-h3-left{color: white; font-size: 14px; font-weight: 500;}
+.h2-tagline{font-size: 14px; font-weight: 500; color: #352b3b; padding: 0px 10px; margin-top:0px}
+.h2-footer{float: right; margin-right: 45px; text-align: right; font-size: 14px; line-height: 1.4 }
+
+
+
 .float_left{ float: left; }
 
 .float_right{ float: right; }
@@ -78,7 +89,7 @@ a:hover{ text-decoration: none!important; }
 
 .founders_inner_margin > p{ color: white;font-size: 25px;font-weight: 600; }
 
-.listdiv{ padding: 1px;width: 100%; margin-top: 12px; font-weight: 500; }
+.listdiv{ padding: 1px;width: 100%; margin-top: 0px; font-weight: 500; }
 
 .tagline{font-size: 14px; font-weight: 500; color: #352b3b; padding: 0px 10px}
 
@@ -118,7 +129,7 @@ a:hover{ text-decoration: none!important; }
 
 .founders_image{ height: auto;width: 100%; }
 
-.inner_right_img{ width: 30px;margin-bottom: 9px;position: relative;bottom: 10px;right: 0px; }
+.inner_right_img{ width: 30px;margin-bottom: 9px;position: relative;bottom: 0px;right: 0px; }
 
 .inner_left_img{ width: 20px;margin-bottom: 20px; }
 
@@ -259,7 +270,7 @@ a:hover{ text-decoration: none!important; }
 
 .social-image{ margin-left:12px;height: auto; width: 20px; }
 
-.footer_right_content .email_content{ top: 85px;position: relative; }
+.footer_right_content .email_content{ top: 65px;position: relative; }
 
 /* css for seed.html page */
 .outer_main_div { width: 100%;height: auto; background-color: #fff;margin-top: 145px; }
