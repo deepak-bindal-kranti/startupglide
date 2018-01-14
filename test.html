@@ -1,17 +1,19 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Startup Glide</title>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Startup Glide </title>
+    <title>Startup Glide | Glide to Success </title>
     <meta name="description" content="GLIDE TO SUCCESS">
     <!--<meta name="keywords" content="startup" />-->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -40,9 +42,18 @@ header start
             <div class="menu_tab">
                 <ul>
                     <li class="hidden-xs hidden-sm"><a href="" title="home">HOME</a></li>
-                    <li class="hidden-xs hidden-sm "><a href="" title="products" >PRODUCTS<span class="glyphicon glyphicon-menu-down"></span></a>
-                    
-                            </li>
+                    <li class="hidden-xs hidden-sm product-menu">
+                        <a class="product-menu-p" title="products">
+                            PRODUCTS
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                        </a>
+                        <!---->
+                        <ul class="product-menu-block" style="display:none">
+                            <a><li>Boost</li></a>
+                            <a><li>Seed</li></a>
+                            <a><li>Sail</li></a>
+                        </ul>
+                    </li>
                     <li class="hidden-xs hidden-sm"><a href="" title="champions" >OUR CHAMPIONS</a></li>
                     <li data-toggle="modal" data-target="#contact_modal">
                          <a title="contact" ><span class="contact-btn">REACH US</span></a>
@@ -51,7 +62,7 @@ header start
             </div>
         </div>
         <div class="header_contact_btn animate-type-01" >
-            <div class="phoneno"><a title="phone" ><span class="phoneno-Text"> +9198730 06389 </span></a></div>
+            <div class="phoneno"><a href="#contact" class="scroll" title="phone" ><span class="phoneno-Text"> <i class="fa fa-phone"></i> +9198730 06389 </span></a></div>
         </div>
     </div>
 </div>
@@ -612,7 +623,7 @@ homepage end
 footer start
 -->    
 <div>
-    <div class="footer" ng-class="{teamFooter: isActive('/team') , landingFooter: isActive('/landing')}">
+    <div id="contact" class="footer" ng-class="{teamFooter: isActive('/team') , landingFooter: isActive('/landing')}">
         <div class="footer_left_content">
             <img alt="logo" class="footer_logo" src="assets/images/logo.png"/>
             <div class="footerlist">
