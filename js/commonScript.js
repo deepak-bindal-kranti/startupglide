@@ -23,3 +23,8 @@ $('.dropdown-content > a').click(function(){
   $('#menu_tab').modal('hide')
 })
    
+
+
+
+
+
