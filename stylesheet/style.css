@@ -17,6 +17,8 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
 .open-tab:hover{background: #218086; color: #ffffff}
 
+.landing-color{color: #bb994e !important;}
+.landing-bg{background-color: #ffffff !important; border: 0px solid !important;}
 .modal-header-home{    background: #352b3b;  color: #fff;}
 .modal-header-close{    color: #fff; opacity: .6;}
 .modal-input{    color: #352b3b;}

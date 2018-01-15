@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Startup Glide | Glide to Success </title>
+    <meta name="description" content="GLIDE TO SUCCESS">
+    <!--<meta name="keywords" content="startup" />-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/commonScript.js"></script>
+    <script src="js/wow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+</head>
+<body>
+
+<!-- 
+header start
+
+-->    
+<div class="main_header">
+    <div class="header_content header-page animate-in" style="background: #000; box-shadow: 25px 1px 40px #000;">
+        <div class="header_logo animate-type-01">
+            <a href="" title="logo" ><img class="logo" alt="logo" src="assets/images/logo.png"></a>
+        </div>
+         <div class="sidemenu visible-xs visible-sm" data-toggle="modal" data-target="#menu_tab">
+             <a title="modal"><span class="glyphicon glyphicon-align-justify"></span></a>
+         </div>
+        <div class="header_middle_content animate-type-01">
+            <div class="menu_tab">
+                <ul>
+                    <li class="hidden-xs hidden-sm"><a href="" title="home">HOME</a></li>
+                    <li class="hidden-xs hidden-sm product-menu">
+                        <a class="product-menu-p" title="products">
+                            PRODUCTS
+                            <span class="glyphicon glyphicon-menu-down"></span>
+                        </a>
+                        <!---->
+                        <ul class="product-menu-block" style="display:none">
+                            <a><li>Boost</li></a>
+                            <a><li>Seed</li></a>
+                            <a><li>Sail</li></a>
+                        </ul>
+                    </li>
+                    <li class="hidden-xs hidden-sm"><a href="" title="champions" >OUR CHAMPIONS</a></li>
+                    <li data-toggle="modal" data-target="#contact_modal">
+                         <a title="contact" ><span class="contact-btn">REACH US</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_contact_btn animate-type-01" >
+            <div class="phoneno"><a href="#contact" class="scroll" title="phone" ><span class="phoneno-Text"> <i class="fa fa-phone"></i> +9198730 06389 </span></a></div>
+        </div>
+    </div>
+</div>
+<!-- modal for reach us  -->
+<div class="container reach_us_contact">
+        <!-- Modal -->
+        <div class="modal fade contact-us-block" id="contact_modal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header modal-header-home">
+                        <button type="button" class="close modal-header-close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Write a Message</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control modal-input" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control modal-input" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control modal-input" placeholder="Phone">
+                            </div>
+                            <textarea rows="4" class="form-control modal-input" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn-default disabled">Send a message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- modal for reach us end-->
+
+<!-- modal for  responsive humburger menu -->
+<div class="container">
+            <!-- Modal -->
+            <div class="modal fade humburger_menu_tab" id="menu_tab" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content modal-popup-box">
+                        <div class="modal-header" style="padding: 15px 0px;">
+                            <button style="margin-right: 5px;" type="button" class="close" data-dismiss="modal">&times;</button>
+
+                            <div class="dropdown product-mob-dd">
+                                <a title="products"><p class="open-tab">Products <span class="glyphicon glyphicon-chevron-down"></span></p></a>
+                                <div class="dropdown-content">
+                                    <a title="sail">Glide Sail</a>
+                                    <a title="rock">Glide Rock</a>
+                                    <a title="hire">Glide Hire</a>
+                                    <a title="mentor">Glide Mentor</a>
+                                    <a title="investor">Glide Investor</a>
+                                    <a title="jump">Glide Jump</a>
+                                    <a title="seed">Glide Seed</a>
+                                </div>
+                            </div>
+
+                            <a class="link2" title="team"><p class="open-tab">Our Champions</p></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- modal for  responsive humburger menu end-->
+
+
+
+
+<!-- 
+header end
+-->
+
+
+
+
+
+
+
+<!-- 
+homepage start
+-->    
+
+    <div class="outer_main_div">
+
+        <!-- Main image content -->
+        <div class="main_image_content hidden-xs">
+            <div class="landing-banner-left">
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon">
+                    <strong class="ribbon-content">Build your MVP</strong>
+                </h1>
+
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon2" style="width: 60%">
+                    <strong class="ribbon-content2">Hire your CTO</strong>
+                </h1>
+
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon3" style="width: 50%">
+                    <strong class="ribbon-content3">Build your Tech Team</strong>
+                </h1>
+
+
+            </div>
+
+            <div class="landing-banner-right">
+
+                <img class="bg_img wow fadeInDown" src="assets/images/landing.png" data-wow-delay="0.2s">
+            </div>
+
+            <!-- <div class="inner_bg_text wow fadeInUp" data-wow-duration="2s">
+                <h1>MANAGEMENT BACKGROUND</h1>
+                <img class="heading_line_img" src="assets/images/line.png" >
+            </div> -->
+        </div>
+
+
+
+        <div class="main_image_content visible-xs">
+
+            <div class="landing-banner-right">
+
+                <img class="bg_img wow fadeInDown" src="assets/images/landing-mob.png" data-wow-delay="0.2s">
+            </div>
+
+            <div class="landing-banner-left">
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon">
+                    <strong class="ribbon-content">Build your MVP</strong>
+                </h1>
+
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon2" style="width: 70%">
+                    <strong class="ribbon-content2">Hire your CTO</strong>
+                </h1>
+
+                <h1 ng-click="scrollTo('landingProduct')" class="ribbon3" style="width: 60%">
+                    <strong class="ribbon-content3">Build your Tech Team</strong>
+                </h1>
+
+
+            </div>
+
+        </div>
+
+        <!-- Main image content end -->
+        <!-- middle text content -->
+        <div id='landingProduct' class="middle_text wow fadeInDown" data-wow-delay="0.2s">
+            <!-- <p>We are <span>small</span> yet mighty, we are reckless<br>
+                though wiser than you may <span>think</span>, we are go-<br>
+                getters but most of all, we are visionary!
+            </p> -->
+
+            <p>
+                "As a business we understand how hard it is to build products. Building and managing our own line of products we have gathered unique experience to make a startup like yours successful.
+            </p>
+            <p>
+                We provide a spectrum of productised services to help startups grow. Our products provide flexbility, quality and above all delivery.
+            </p>
+            <p>
+                So if you are looking for building a tech team, a MVP or need a CTO or just someone to talk to contact us."
+
+            </p>
+
+        </div>
+        <!-- middle text content end-->
+        <!-- tab div -->
+        <div class="tab_panel">
+            <div class="left_tab">
+                <div class="tab_text wow fadeInUp" data-wow-duration="2s">
+
+                    <a href="#!jump"><h2 class="tab_title">JUMP</h2></a>
+                </div>
+                <img class="heading_img  wow fadeInDown" src="assets/images/jumpicon.png" data-wow-delay="0.2s">
+
+                <div class="landing-lagline">
+                    <a href="#!jump"> Germinate your startup </a>
+                </div>
+            </div>
+            <div class="middle_line">
+                <img class="heading_line_img" src="assets/images/hor-line.png">
+            </div>
+            <div class="right_tab">
+                <div class="tab_text wow fadeInUp" data-wow-duration="2s">
+
+                    <a href="#!seed"><h2 class="tab_title">SEED</h2></a>
+                </div>
+                <img class="heading_img wow fadeInDown" src="assets/images/seedicon.png" data-wow-delay="0.2s">
+
+                <div class="landing-lagline">
+                    <a href="#!seed"> MVP out in less than a quarter </a>
+                </div>
+
+            </div>
+        </div>
+        <!-- tab div end -->
+        <!-- sliding video section -->
+        <!--  div for desktop testimonial -->
+        <div class="testimonial" style="position: relative;">
+            <div class="Slides ">
+                <div class="testimonial-text landing-bg">
+                    <div class="textbox">
+                        <div style="width: 100%; float: left;text-align: center;">
+                            <h3 class="textheading landing-color">Testimonials 1</h3>
+                        </div>
+
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                            <div class="responsiveRapper homeiframe">
+                                <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
+                                <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div style="width: 100%; float: left; text-align: center;">
+                            <p class="textpara landing-color" style="padding: 10px">
+                                Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-image visible-md visible-lg">
+                    <div style="width: 100%; float: left;">
+                        <!--<img style="width: 100%;" src="images/try.png">-->
+
+                        <div class="responsiveRapper homeiframe">
+                            <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
+                            <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Slides">
+                <div class="testimonial-text landing-bg">
+                    <div class="textbox">
+                        <div style="width: 100%; float: left;text-align: center;">
+
+                            <h3 class="textheading landing-color">Testimonials 2</h3>
+                        </div>
+
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                            <div class="responsiveRapper homeiframe">
+                                <iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>
+                                <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>-->
+                            </div>
+                        </div>
+
+                        <div style="width: 100%; float: left; text-align: center;">
+                            <p class="textpara landing-color" style="padding: 10px">
+                                Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-image visible-md visible-lg">
+                    <div style="width: 100%; float: left;">
+                        <div class="responsiveRapper homeiframe">
+                            <iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>
+                            <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>-->
+                        </div>
+
+                        <!--<img style="width: 100%" src="images/try.png">-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="Slides">
+                <div class="testimonial-text landing-bg">
+                    <div class="textbox">
+                        <div style="width: 100%; float: left;text-align: center;">
+
+                            <h3 class="textheading landing-color">Testimonials 3</h3>
+                        </div>
+
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                            <div class="responsiveRapper homeiframe">
+                                <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
+                                <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div style="width: 100%; float: left; text-align: center;">
+                            <p class="textpara landing-color" style="padding: 10px">
+                                Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-image visible-md visible-lg">
+                    <div style="width: 100%; float: left;">
+                        <div class="responsiveRapper homeiframe">
+                            <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
+                            <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dotposition ">
+                <span class="dot" onclick="current(1)"></span>
+                <span class="dot" onclick="current(2)"></span>
+                <span class="dot" onclick="current(3)"></span>
+            </div>
+
+            <a title="previous" class="prev" onclick="plus(-1)">&#10094;</a>
+            <a title="next" class="next" onclick="plus(1)">&#10095;</a>
+        </div>
+        <!-- sliding video section end -->
+        <!-- footer div -->
+        
+        <!-- footer div end -->
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plus(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function current(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("Slides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+
+
+
+
+
+<!-- 
+homepage end
+-->
+
+
+
+
+
+
+
+
+
+<!-- 
+footer start
+-->    
+<div>
+    <div id="contact" class="footer" style="background: #bc994e">
+        <div class="footer_left_content">
+            <img alt="logo" class="footer_logo" src="assets/images/logo.png"/>
+            <div class="footerlist">
+                <ul class="ul">
+                    <li>TERM & CONDITIONS</li><p>|</p>
+                    <li>PRIVACY POLICY</li><p>|</p>
+                    <li>COPYRIGHT</li><p>|</p>
+                    <li>DISCLAIMER</li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="footer_right_content">
+            <h2 class="h2-footer">
+                <a title="address" href="https://www.google.com/maps/place/Kranti+Tech+Services+Pvt.+Ltd./@28.631107,77.384071,15z/data=!4m5!3m4!1s0x0:0x87a53b2af3318f15!8m2!3d28.631107!4d77.384071?hl=en">
+                    ADDRESS: D247/32, SECTOR 63, NOIDA,</br>
+                    UTTAR PRADESH-201307, INDIA
+
+                </a>
+               <br>
+                <span class="email_content">
+                    </br>
+                    <img alt="social" class="social-image" src="assets/images/lasticon1.png">
+                    <img alt="social" class="social-image" style="width: 9px" src="assets/images/lasticon2.png">
+                    <img alt="social" class="social-image" src="assets/images/lasticon3.png">
+                    <img alt="social" class="social-image" src="assets/images/lasticon4.png">
+                </span>
+
+
+            </h2>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 
+footer end
+-->
+
+
+
+
+
+
+
+</body>
+</html>
