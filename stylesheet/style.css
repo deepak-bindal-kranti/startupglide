@@ -469,7 +469,7 @@ a:hover{ text-decoration: none!important; }
 
 .left_tab{ float: left;width: 45%;text-align: right; margin-top: 0px; }
 
-.middle_line{ float: left;width: 10%;margin-top: 0px; }
+.middle_line{ float: left;width: 10%;margin-top: -20px; }
 
 .middle_line .heading_line_img{ width: 100%; }
 
@@ -479,7 +479,7 @@ a:hover{ text-decoration: none!important; }
 
 .left_tab .cruze_text{ margin-left: 15px; }
 
-.tab_title{ color: #bb994e; font-weight: bold;font-size: 50px;margin-top: -17px; cursor: pointer }
+.tab_title{ font-weight: bold;font-size: 50px;margin-top: -17px; cursor: pointer }
 
 .tab_text{ display: inline-block;margin-top: 40px; }
 
@@ -1116,7 +1116,7 @@ a:hover{ text-decoration: none!important; }
 
     .right_tab , .left_tab{ width: 44%; margin-top: 15px }
 
-    .middle_line{ width: 12%;margin-top: 5px; }
+    .middle_line{ width: 12%;margin-top: -6px; }
 
     .middle_line .heading_line_img{ width: 40px; }
 
@@ -1376,7 +1376,7 @@ a:hover{ text-decoration: none!important; }
 
     .middle_line{ margin-top: 0px; }
 
-    .middle_line .heading_line_img{ width: 65px; margin-top: 0px; }
+    .middle_line .heading_line_img{ width: 65px; margin-top: -22px; }
 }
 
 
