@@ -25,6 +25,12 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
 .modal-popup-box{    background-color: aliceblue;  color: #fff;}
 
+.landing-sticky{background-image: url("../assets/images/sticky.png");     background-repeat: no-repeat;
+    background-size: contain;     padding: 5vw 20px;
+    width: 15vw;
+    height: auto;
+    font-size: 2vw;     font-weight: bold;}
+
 .float_left{ float: left; }
 
 .float_right{ float: right; }
@@ -455,7 +461,7 @@ a:hover{ text-decoration: none!important; }
 
 .main_image_content .bg_img{ width: 100%; }
 
-.main_image_content h1{position: relative;bottom: 290px;color: #6a5935;font-weight: bolder;}
+/*.main_image_content h1{position: relative;bottom: 290px;color: #6a5935;font-weight: bolder;}*/
 
 .main_image_content .heading_line_img{ position: relative;bottom: 290px;width: 34%; }
 
@@ -489,7 +495,7 @@ a:hover{ text-decoration: none!important; }
 
 .landing-lagline p{cursor: pointer;}
 
-.landing-banner-left{float: left; width: 35%; position: relative; z-index: 1; padding-top: 60px; left: 100px;}
+.landing-banner-left{float: left; width: 35%; position: relative; z-index: 1; padding-top: 30px; left: 100px;}
 
 .landing-banner-right{float: right; width: 65%;}
 
@@ -850,6 +856,16 @@ a:hover{ text-decoration: none!important; }
         margin-top: 110px;
     }
 
+    .landing-sticky {
+    background-image: url(../assets/images/sticky.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10vw 20px;
+    width: 30vw;
+    height: auto;
+    font-size: 4vw;
+    font-weight: bold;
+}
 
 
 	.sailImage{ margin-top: 30px!important; }
@@ -872,7 +888,7 @@ a:hover{ text-decoration: none!important; }
 
 	.inner_text_detail_jump{width: 96%; margin: 0px auto}
 
-	.landing-banner-left {  width: 100%; padding-top: 10px; left: 0px; }
+	.landing-banner-left {  width: 80%; padding-top: 10px; left: 10%; }
 
 	.ribbon { font-size: 14px !important; top: 0px; width: 80%; }
 
