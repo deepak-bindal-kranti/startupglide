@@ -15,7 +15,7 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 .product-menu-block > a > li { background: #57b5c1; padding: 5px 10px; width : 100%; font-size: 14px; }
 .product-menu-block > a > li:hover{ background: #352b3b; }
 
-.open-tab:hover{background: #218086;}
+.open-tab:hover{background: #218086; color: #ffffff}
 
 .modal-header-home{    background: #352b3b;  color: #fff;}
 .modal-header-close{    color: #fff; opacity: .6;}
