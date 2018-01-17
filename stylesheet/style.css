@@ -44,6 +44,8 @@ ul { list-style-type: none;padding: 0px;}
 
 a{ color: white!important; }
 
+.main_text_detail p{ margin: 0 0 10px}
+
 p{ margin: auto 0;}
 
 a:hover{ text-decoration: none!important; }
@@ -341,11 +343,11 @@ a:hover{ text-decoration: none!important; }
 
 .middle_circle_section .glyphicon{ color: #fff; padding: 35px; font-size: 25px; }
 
-.middle_content_section{ width: 100%; height: auto;clear: both;}
+.middle_content_section{ width: 100%; height: auto;clear: both; background: #fff; overflow: auto}
 
-.text_section { width: 55%; text-align: center;height: auto;}
+.text_section { width: 55%; text-align: center; height: auto;}
 
-.image_section{ width: 45%; position: relative;}
+.image_section{ width: 45%; position: relative; height: auto; overflow: hidden}
 
 .image_section img{  width: 100%;}
 
