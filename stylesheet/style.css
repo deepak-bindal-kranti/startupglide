@@ -685,13 +685,13 @@ a:hover{ text-decoration: none!important; }
 
 
 .trafficlight{
-  background: #222;
-  background-image: linear-gradient(transparent 2%, #111 2%, transparent 3%, #111 30%);
+  /*background: #222;
+  background-image: linear-gradient(transparent 2%, #111 2%, transparent 3%, #111 30%);*/
   width: 170px;
   height: 400px;
   border-radius: 20px;
   position: relative;
-  border: solid 5px #333;
+  /*border: solid 5px #333;*/
 }
 
 .trafficlight:before{
@@ -752,7 +752,7 @@ a:hover{ text-decoration: none!important; }
   position: absolute;
   top: 20px;
   left: 35px;
- /* animation: 13s red infinite;*/
+  animation: 6s red infinite;
   border: dotted 2px red;
   box-shadow: 
     0 0 20px #111 inset,
@@ -774,7 +774,7 @@ a:hover{ text-decoration: none!important; }
   position: absolute;
   top: 145px;
   left: 35px;
-  /*animation: 13s yellow infinite;*/
+  animation: 6s yellow infinite;
   box-shadow: 
     0 0 20px #111 inset,
     0 0 10px yellow;
@@ -798,17 +798,17 @@ a:hover{ text-decoration: none!important; }
   box-shadow: 
     0 0 20px #111 inset,
     0 0 10px lime;
-  /*animation: 13s green infinite;*/
+  animation: 6s green infinite;
   color: white;
     font-size: 36px;
     padding: 24px;
     font-weight: bold;
 }
 
-/*@keyframes red{
+@keyframes red{
   0%{opacity: 1}
   20%{opacity: 1}
-  40%{opacity: 1}
+  40%{opacity: .1}
   60%{opacity: .1}
   80%{opacity: .1}
   100%{opacity: .1}
@@ -818,26 +818,20 @@ a:hover{ text-decoration: none!important; }
   0%{opacity: .1}
   20%{opacity: .1}
   40%{opacity: 1}
-  50%{opacity: .1}
-  60%{opacity: .1}
+  60%{opacity: 1}
   80%{opacity: .1}
   100%{opacity: .1}
 }
 
 @keyframes green{
-  0%{opacity: .1}
+ 0%{opacity: .1}
   20%{opacity: .1}
   40%{opacity: .1}
-  60%{opacity: 1}
+  60%{opacity: .1}
   80%{opacity: 1}
-  83%{opacity: .1}
-  86%{opacity: 1}
-  89%{opacity: .1}
-  93%{opacity: 1}
-  96%{opacity: .1}
   100%{opacity: 1}
 }
-*/
+
 
 
 .works-left{float: left; width: 30%; margin-bottom: 20px;}
