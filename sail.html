@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <title>Startup Glide | Build your MVP </title>
-    <meta name="description" content="Build your MVP">
+    <title>Startup Glide | Sail </title>
+    <meta name="description" content="Longterm Staff augumentation and product development">
     <!--<meta name="keywords" content="startup" />-->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,9 +31,9 @@ header start
 
 -->    
 <div class="main_header">
-    <div class="header_content header-page animate-in" style="background: #000; box-shadow: 25px 1px 40px #000;">
+    <div class="header_content header-page animate-in" ng-class="{landingHeader: isActive('/landing')}">
         <div class="header_logo animate-type-01">
-            <a href="test.html" title="logo" ><img class="logo" alt="logo" src="assets/images/logo.png"></a>
+            <a href="test.html" title="logo"><img class="logo" alt="logo" src="assets/images/logo.png"></a>
         </div>
          <div class="sidemenu visible-xs visible-sm" data-toggle="modal" data-target="#menu_tab">
              <a title="modal"><span class="glyphicon glyphicon-align-justify"></span></a>
@@ -55,7 +55,7 @@ header start
                             <a href="jump.html"><li>Jump</li></a>
                         </ul>
                     </li>
-                    <li class="hidden-xs hidden-sm"><a href="" title="champions" >OUR CHAMPIONS</a></li>
+                    <li class="hidden-xs hidden-sm"><a  title="champions" >OUR CHAMPIONS</a></li>
                     <li data-toggle="modal" data-target="#contact_modal">
                          <a title="contact" ><span class="contact-btn">REACH US</span></a>
                     </li>
@@ -74,7 +74,7 @@ header start
             <div class="modal-dialog">
                 <!-- Modal content-->
                 <div class="modal-content">
-                    <div class="modal-header modal-header-home" style="background: #000000c9; ">
+                    <div class="modal-header modal-header-home">
                         <button type="button" class="close modal-header-close" data-dismiss="modal">&times;</button>
                         <h4 class="modal-title">Write a Message</h4>
                     </div>
@@ -107,13 +107,13 @@ header start
                 <div class="modal-dialog">
 
                     <!-- Modal content-->
-                    <div class="modal-content modal-popup-box-landing">
+                    <div class="modal-content modal-popup-box">
                         <div class="modal-header" style="padding: 15px 0px;">
                             <button style="margin-right: 5px;" type="button" class="close" data-dismiss="modal">&times;</button>
 
                             <div class="dropdown product-mob-dd">
-                                <a title="products"><p class="open-tab-landing">Products <span class="glyphicon glyphicon-chevron-down"></span></p></a>
-                                <div class="dropdown-content-landing">
+                                <a title="products"><p class="open-tab">Products <span class="glyphicon glyphicon-chevron-down"></span></p></a>
+                                <div class="dropdown-content">
                                     <a href="sail.html" title="sail">Glide Sail</a>
                                     <a href="boost.html" title="rock">Glide Boost</a>
                                     <a href="jump.html" title="jump">Glide Jump</a>
@@ -121,7 +121,7 @@ header start
                                 </div>
                             </div>
 
-                            <a class="link2" title="team"><p class="open-tab-landing">Our Champions</p></a>
+                            <a class="link2" title="team"><p class="open-tab">Our Champions</p></a>
 
                         </div>
                     </div>
@@ -148,149 +148,141 @@ homepage start
 -->    
 
     <div class="outer_main_div">
-
-        <!-- Main image content -->
-        <div class="main_image_content hidden-xs">
-            <div class="landing-banner-left">
-                <h1 class="landing-sticky" style="float:left">
-                    Build your MVP
-                </h1>
-
-                <h2 class="landing-sticky" style="float: right; margin-top: 60px;">
-                    Hire your <br /> CTO
-                </h2>
-
-                <h2 class="landing-sticky" style="float: left; margin-left: 60px; ">
-                    Build your Tech Team
-                </h2>
-                
-                <!--<h1 class="ribbon">
-                    <strong class="ribbon-content">Build your MVP</strong>
-                </h1>
-
-                <h3 class="ribbon2" style="width: 60%">
-                    <strong class="ribbon-content2">Hire your CTO</strong>
-                </h3>
-
-                <h3 class="ribbon3" style="width: 50%">
-                    <strong class="ribbon-content3">Build your Tech Team</strong>
-                </h3>-->
-
-
+        <!-- Introductive part of the page -->
+        <div class="main_view_bg">
+            <div class="img_content">
+                <img src="assets/images/sail.png" class="sailImage wow fadeInDown" data-wow-delay="0.2s">
             </div>
-
-            <div class="landing-banner-right">
-
-                <img alt="banner" class="bg_img wow fadeInDown" src="assets/images/landing.png" data-wow-delay="0.2s">
-            </div>
-
-            <!-- <div class="inner_bg_text wow fadeInUp" data-wow-duration="2s">
-                <h1>MANAGEMENT BACKGROUND</h1>
-                <img class="heading_line_img" src="assets/images/line.png" >
-            </div> -->
-        </div>
-
-
-
-        <div class="main_image_content visible-xs">
-
-            <div class="landing-banner-right">
-
-                <img alt="banner" class="bg_img wow fadeInDown" src="assets/images/landing-mob.png" data-wow-delay="0.2s">
-            </div>
-
-            <div class="landing-banner-left">
-                <!--<h3  class="ribbon">
-                    <strong class="ribbon-content">Build your MVP</strong>
-                </h3>
-
-                <h3  class="ribbon2" style="width: 70%">
-                    <strong class="ribbon-content2">Hire your CTO</strong>
-                </h3>
-
-                <h3 class="ribbon3" style="width: 60%">
-                    <strong class="ribbon-content3">Build your Tech Team</strong>
-                </h3>-->
-
-                <h3 class="landing-sticky" style="float:left">
-                    Build your MVP
-                </h3>
-
-                <h3 class="landing-sticky" style="float: right; margin-top: 60px;">
-                    Hire your <br /> CTO
-                </h3>
-
-                <h3 class="landing-sticky" style="float: left; margin-left: 60px; ">
-                    Build your Tech Team
-                </h3>
-
-
-            </div>
-
-        </div>
-
-        <!-- Main image content end -->
-        <!-- middle text content -->
-        <div id='landingProduct' class="middle_text wow fadeInDown" data-wow-delay="0.2s">
-            <!-- <p>We are <span>small</span> yet mighty, we are reckless<br>
-                though wiser than you may <span>think</span>, we are go-<br>
-                getters but most of all, we are visionary!
-            </p> -->
-
-            <p>
-                As a business we understand how hard it is to build products. Building and managing our own line of products we have gathered unique experience to make a startup like yours successful.
-            </p>
-            <p>
-                We provide a spectrum of productised services to help startups grow. Our products provide flexibility, quality and above all delivery.
-            </p>
-            <p>
-                So if you are looking for building a tech team, a MVP or need a CTO or just someone to talk to contact us.
-
-            </p>
-
-        </div>
-        <!-- middle text content end-->
-        <!-- tab div -->
-        <div class="tab_panel">
-            <div class="left_tab">
-                <div class="tab_text wow fadeInUp" data-wow-duration="2s">
-
-                    <a href="jump.html"><h2 class="tab_title">JUMP</h2></a>
-                </div>
-                <img alt="jump" class="heading_img  wow fadeInDown" src="assets/images/jumpicon.png" data-wow-delay="0.2s">
-
-                <div class="landing-lagline">
-                    <a href="jump.html"> Germinate your startup </a>
-                </div>
-            </div>
-            <div class="middle_line">
-                <img class="heading_line_img" src="assets/images/hor-line.png">
-            </div>
-            <div class="right_tab">
-                <div class="tab_text wow fadeInUp" data-wow-duration="2s">
-
-                    <a href="seed.html"><h2 class="tab_title">SEED</h2></a>
-                </div>
-                <img alt="seed" class="heading_img wow fadeInDown" src="assets/images/seedicon.png" data-wow-delay="0.2s">
-
-                <div class="landing-lagline">
-                    <a href="seed.html"> MVP out in less than a quarter </a>
+            <div class="text_content">
+                <div class="main_text_detail wow fadeInUp" data-wow-duration="2s">
+                    <h1 class="heading">
+                        SAIL
+                        <img src="assets/images/sail icon.png">
+                    </h1>
+                    <h2 class="inner-tagline">Longterm Staff augumentation and product development</h2>
+                    <p>
+                        All startups have fundamental resourcing and expense issues. Building a team is a nightmare for all. Constant team churning and managing technical development is a challenge. Supporting a product technically is not a simple task.
+                    </p>
+                    <p>
+                        Challenges and responsibilities only increase once a MVP is out. Sail has been designed for smooth sailing in these deep and troubled waters.
+                    </p>
+                    <p>
+                        Once your MVP is out Sail helps build on the solid ground work and continue with your project with long term strategies.
+                    </p>
+                    <p>
+                        Sail provide long term engagement with experts at higher value proposition to sail to your destination, until you the captain says "Land ahoy"
+                    </p>
                 </div>
 
             </div>
+            <!-- <div class="seed_image  visible-sm visible-xs">
+            <img src="assets/images/sail.png">
+        </div> -->
         </div>
-        <!-- tab div end -->
+        <!-- Introductive part of the page end-->
+        <!-- How it works section -->
+        <div class="inner_content">
+            <div class="middle_section">
+                <div class="margin_div visible-lg visible-md" style="margin-top: 0px"></div>
+                <div class="inner_detail_section">
+                    <div class="inner_heading">
+                        <!-- <p class="number_head">01</p> -->
+                        <h2 class="main_heading wow fadeInDown" data-wow-delay="0.2s">How it works?</h2>
+                    </div>
+                    <div class="working_detail_section wow fadeInUp" data-wow-duration="2s">
+
+                        <div class="works-left">
+                            <div class="trafficlight" style="float: right">
+                                
+                                <div class="red">GET</div>
+                                <div class="yellow">SET</div>
+                                <div class="green">GO</div>
+                            </div>
+                        </div>
+
+                        <div class="works-right">
+                            <table class="traffic-text">
+                                <tr>
+                                    <td> Team engages to determine long term goals and strategies</td>
+                                </tr>
+                                <tr>
+                                    <td> Identify key problem areas such as staffing, technology complexities, project and scope management etc.</td>
+                                </tr>
+                                <tr>
+                                    <td>Start delivering  </td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="middle_circle_section hidden-sm hidden-xs wow fadeInDown" data-wow-delay="0.2s">
+                <span class="glyphicon glyphicon-menu-down"></span>
+            </div>
+        </div>
+        <!-- How it works section end -->
+        <!-- Benfits section -->
+        <div class="middle_content_section">
+            <div class="float_left text_section">
+                <div class="head_section wow fadeInDown" data-wow-delay="0.2s">
+                    <!-- <p>02</p> -->
+                    <h2>Benefits</h2>
+                </div>
+                <div class="wow fadeInUp" data-wow-duration="2s">
+
+                    <table class="inner_text_detail_jump">
+                        <tr>
+                            <td><img src="assets/images/icon6.png"></td>
+                            <td>Long term support</td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/icon7.png"></td>
+                            <td>Zero team management challenges</td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/icon8.png"></td>
+                            <td>Swapping of experts as needed and required for business goals</td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/icon6.png"></td>
+                            <td>Total lower cost of ownership</td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/icon7.png"></td>
+                            <td>High business value</td>
+                        </tr>
+                    </table>
+
+            
+                </div>
+            </div>
+            <div class="float_right image_section visible-md visible-lg">
+                <img src="assets/images/python.png" style="margin-top: 100px" class="wow fadeInUp" data-wow-duration="2s">
+            </div>
+        </div>
+        <div class="blankspace_div visible-md visible-lg"></div><br>
+        <!-- Benfits section end-->
         <!-- sliding video section -->
+       
+
+
+
+
+
         <!--  div for desktop testimonial -->
         <div class="testimonial" style="position: relative;">
             <div class="Slides ">
-                <div class="testimonial-text landing-bg">
+                <div class="testimonial-text">
                     <div class="textbox">
                         <div style="width: 100%; float: left;text-align: center;">
-                            <h3 class="textheading landing-color">Testimonials 1</h3>
+                            <h3 class="textheading">Testimonials 1</h3>
                         </div>
 
-                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;background-color: #1e6c71">
                             <div class="responsiveRapper homeiframe">
                                 <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
                                 <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
@@ -298,7 +290,7 @@ homepage start
                         </div>
 
                         <div style="width: 100%; float: left; text-align: center;">
-                            <p class="textpara landing-color" style="padding: 10px">
+                            <p class="textpara" style="padding: 10px">
                                 Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
                             </p>
                         </div>
@@ -318,14 +310,14 @@ homepage start
             </div>
 
             <div class="Slides">
-                <div class="testimonial-text landing-bg">
+                <div class="testimonial-text">
                     <div class="textbox">
                         <div style="width: 100%; float: left;text-align: center;">
 
-                            <h3 class="textheading landing-color">Testimonials 2</h3>
+                            <h3 class="textheading">Testimonials 2</h3>
                         </div>
 
-                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;background-color: #1e6c71">
                             <div class="responsiveRapper homeiframe">
                                 <iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>
                                 <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>-->
@@ -333,7 +325,7 @@ homepage start
                         </div>
 
                         <div style="width: 100%; float: left; text-align: center;">
-                            <p class="textpara landing-color" style="padding: 10px">
+                            <p class="textpara" style="padding: 10px">
                                 Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
                             </p>
                         </div>
@@ -353,21 +345,21 @@ homepage start
             </div>
 
             <div class="Slides">
-                <div class="testimonial-text landing-bg">
+                <div class="testimonial-text">
                     <div class="textbox">
                         <div style="width: 100%; float: left;text-align: center;">
 
-                            <h3 class="textheading landing-color">Testimonials 3</h3>
+                            <h3 class="textheading">Testimonials 3</h3>
                         </div>
 
-                        <div class="visible-xs visible-sm" style="width: 100%; float: left;">
+                        <div class="visible-xs visible-sm" style="width: 100%; float: left;background-color: #1e6c71">
                             <div class="responsiveRapper homeiframe">
                                 <!--<iframe width="660" height="315" src="https://www.youtube.com/embed/z4d1HKs-k9U" frameborder="0" allowfullscreen></iframe>-->
                                 <iframe width="660" height="315" src="https://www.youtube.com/embed/W-IvQ5LPork" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div style="width: 100%; float: left; text-align: center;">
-                            <p class="textpara landing-color" style="padding: 10px">
+                            <p class="textpara" style="padding: 10px">
                                 Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit, sed do eiusmod tempor incidi</br>dunt ut labore et dolore magna aliqua. Ut e nim</br> ad minim veniam, quis nostrud exercitation </br>ullamco laboris nisi ut aliquip ex ea commodo</br> consequat. Duis aute irure dolor in reprehenderit</br> in voluptate velit esse cillum dolore eu fugiat nulla</br> pariatur. Excepteur sint occaecat cupidatat non</br> proident, sunt in culpa qui officia deserunt mollit</br> anim id est laborum. Sed ut perspiciatis unde
                             </p>
                         </div>
@@ -393,41 +385,79 @@ homepage start
             <a title="previous" class="prev" onclick="plus(-1)">&#10094;</a>
             <a title="next" class="next" onclick="plus(1)">&#10095;</a>
         </div>
-        <!-- sliding video section end -->
-        <!-- footer div -->
-        
-        <!-- footer div end -->
+
+
+
+
+
+
+
+
+
+
+        <!-- offer section end -->
+        <!-- product section -->
+        <div class="product_section">
+            <div class="product_text_section">
+                <div class="product_heading wow fadeInDown" data-wow-delay="0.2s">
+                    <!-- <p>05</p> -->
+                    <h2>Related Products</h2>
+                </div>
+                <div class="product_list wow fadeInUp" data-wow-duration="2s">
+
+                    <a href="#!boost" class="inner_product_list">BOOST<img src="assets/images/lasticon.png"></a>
+                    <a href="#!sail" class="inner_product_list">SAIL<img src="assets/images/lasticon.png"></a>
+                    <a href="#!seed" class="inner_product_list">SEED<img src="assets/images/lasticon.png"></a>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- product section end-->
     </div>
 
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
 
-        function plus(n) {
-            showSlides(slideIndex += n);
+
+
+
+
+
+
+
+<!-- footer div(code is writen in the views/footer.html) -->
+
+
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plus(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function current(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("Slides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
         }
-
-        function current(n) {
-            showSlides(slideIndex = n);
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
         }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
 
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("Slides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
+</script>
 
-    </script>
 
 
 
@@ -449,7 +479,7 @@ homepage end
 footer start
 -->    
 <div>
-    <div id="contact" class="footer" style="background: #bc994e">
+    <div id="contact" class="footer" ng-class="{teamFooter: isActive('/team') , landingFooter: isActive('/landing')}">
         <div class="footer_left_content">
             <img alt="logo" class="footer_logo" src="assets/images/logo.png"/>
             <div class="footerlist">

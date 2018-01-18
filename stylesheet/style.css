@@ -680,7 +680,7 @@ a:hover{ text-decoration: none!important; }
 
 
 .inner-tagline{font-size: 16px; color: #ffbb01; font-weight: 500;}
-.inner_text_detail_jump{width: 45%; margin: 0px auto}
+.inner_text_detail_jump{width: 55%; margin: 0px auto}
 .inner_text_detail_jump td{text-align: left; padding: 5px;}
 
 
@@ -883,7 +883,7 @@ a:hover{ text-decoration: none!important; }
 
 	.traffic-text td{font-size: 13px;     padding-left: 9px; padding-right: 5px;}
 	.trafficlight{width: 120px}
-	.red, .green, .yellow {left : 8px;}
+	.red, .green, .yellow {left : 8px;     width: 75px;   height: 75px;    font-size: 26px; padding: 18px 10px;}
 	.protector{width:117px;}
 	.works-left{float: left; width: 44%}
 .works-right{float: right; width: 56%}
