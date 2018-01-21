@@ -320,7 +320,7 @@ a:hover{ text-decoration: none!important; }
 
 .social-image{ margin-left:12px;height: auto; width: 20px; }
 
-.footer_right_content .email_content{ top: 50px;position: relative; }
+.footer_right_content .email_content{ top: 45px;position: relative; }
 
 /* css for seed.html page */
 .outer_main_div { width: 100%;height: auto; background-color: #fff;margin-top: 145px; }
