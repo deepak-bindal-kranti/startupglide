@@ -28,8 +28,17 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 .modal-popup-box{    background-color: #352b3b;  color: #fff;}
 
 .modal-popup-box-landing{    background-color: #efefef;  color: #fff;}
-
-.landing-sticky{background-image: url("../assets/images/sticky.png");     background-repeat: no-repeat;
+.benefits-icon{width: 70px; }
+.sticky-image1 {
+    background-image: url("../assets/images/sticky.png");
+}
+.sticky-image2 {
+    background-image: url("../assets/images/sticky2.png");
+}
+.sticky-image3 {
+    background-image: url("../assets/images/sticky3.png");
+}
+.landing-sticky{background-repeat: no-repeat;
     background-size: contain;     padding: 5vw 20px;
     width: 15vw;
     height: auto; color: black;
@@ -881,7 +890,6 @@ a:hover{ text-decoration: none!important; }
     }
 
     .landing-sticky {
-    background-image: url(../assets/images/sticky.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 10vw 20px;
