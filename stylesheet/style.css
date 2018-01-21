@@ -35,6 +35,18 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
     height: auto; color: black;
     font-size: 2vw;     font-weight: bold;}
 
+.mapouter {
+                    overflow: hidden;
+                    height: 324px;
+                    width: 100%; margin-top: 10px;
+                }
+
+                .gmap_canvas {
+                    background: none !important;
+                    height: 324px;
+                    width: 100%;
+                }
+
 .float_left{ float: left; }
 
 .float_right{ float: right; }
@@ -277,7 +289,7 @@ a:hover{ text-decoration: none!important; }
 .btn-default { font-weight: bold!important; border-color: white!important;}
   
 /* footer */
-.footer{ width: 100%;background-color: #352b3b;float: left;padding: 0 0 20px 0; }
+.footer{ width: 100%;background-color: #352b3b;float: left;padding: 0 0 0px 0; }
 
 .teamFooter{ background: #218086!important; }
 
@@ -299,7 +311,7 @@ a:hover{ text-decoration: none!important; }
 
 .social-image{ margin-left:12px;height: auto; width: 20px; }
 
-.footer_right_content .email_content{ top: 65px;position: relative; }
+.footer_right_content .email_content{ top: 50px;position: relative; }
 
 /* css for seed.html page */
 .outer_main_div { width: 100%;height: auto; background-color: #fff;margin-top: 145px; }
@@ -1008,7 +1020,7 @@ a:hover{ text-decoration: none!important; }
 
     .footerlist > ul > p { padding: 6px; }
 
-    .footer_right_content .email_content{top: 10px; }
+    .footer_right_content .email_content{top: 0px; }
 
     .footer_right_content { width: 100%;  float: left;margin-top: 0px;text-align: center;}
 
