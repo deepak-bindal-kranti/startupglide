@@ -15,7 +15,7 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 .product-menu-block > a > li { background: #57b5c1; padding: 5px 10px; width : 100%; font-size: 14px; }
 .product-menu-block > a > li:hover{ background: #352b3b; }
 
-.open-tab:hover{background: #218086; color: #ffffff}
+.open-tab:hover{background: #534557; color: #ffffff}
 .open-tab-landing:hover{background: #000000; color: #ffffff}
 
 .landing-color{color: #bb994e !important;}
@@ -25,7 +25,7 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 .modal-header-close{    color: #fff; opacity: .6;}
 .modal-input{    color: #352b3b;}
 
-.modal-popup-box{    background-color: aliceblue;  color: #fff;}
+.modal-popup-box{    background-color: #352b3b;  color: #fff;}
 
 .modal-popup-box-landing{    background-color: #efefef;  color: #fff;}
 
@@ -257,7 +257,7 @@ a:hover{ text-decoration: none!important; }
 
 .dropdown-content { display: none; position: relative;width: 100%;z-index: 1; }
 
-.dropdown-content a, .dropdown-content-landing a { color: black!important; padding: 8px 16px;text-decoration: none;display: block;width: 100%; }
+.dropdown-content a, .dropdown-content-landing a { padding: 8px 16px;text-decoration: none;display: block;width: 100%; }
 
 .dropdown-content a:hover {background-color: #57b5c1; color: white !important;}
 
@@ -268,7 +268,7 @@ a:hover{ text-decoration: none!important; }
 
 .dropdown:hover .dropbtn { background-color: #3e8e41; }
 
-.open-tab, .open-tab-landing{ color: black;font-weight: bold;font-size: larger; padding: 8px;}
+.open-tab, .open-tab-landing{ color: white; font-weight: bold;font-size: larger; padding: 8px;}
 
 .modal-content{ text-align: center; }
 
