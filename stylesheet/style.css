@@ -20,7 +20,8 @@ body { background-color: #F1F1F1;font-family: 'Roboto', sans-serif!important; }
 
 .landing-color{color: #bb994e !important;}
 .landing-bg{background-color: #ffffff !important; border: 0px solid !important;}
-.modal-header-home{    background: #352b3b;  color: #fff;}
+.modal-header-home{    background: #352b3b;  color: #fff; border: 0px;}
+.modal-content-home{    background: #352b3b;  border: 0px solid;  color: black;}
 .modal-header-close{    color: #fff; opacity: .6;}
 .modal-input{    color: #352b3b;}
 
